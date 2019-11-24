@@ -8,12 +8,15 @@ Some of these .asm files compile to funtional, simple x86_64` BIOSes.
 Some are broken.
 go figure.
 
-### COmpilation Instructions
+### Compilation Instructions
+Using NASM 
+
+`nasm boot_sec.asm  -f bin -o boot_sec.bin `
 
 ### Emulators
 these programs were designed to work with Bochs or QEMU.
 
-`qemu-system-x86_64 hello_bootsect.bin`
+`qemu-system-x86_64 <BIOS_NAME>.bin`
 
 
 
