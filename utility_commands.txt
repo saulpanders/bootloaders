@@ -1,0 +1,5 @@
+#compile assembly to raw (-f) machine code
+nasm boot sect.asm -f bin -o boot sect.bin
+
+#Display binary/raw machine code as readable HEX
+od -t x1 -A n boot sect.bin
