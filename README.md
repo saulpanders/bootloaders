@@ -14,7 +14,7 @@ Using NASM
 `nasm boot_sec.asm  -f bin -o boot_sec.bin `
 
 ### Emulators
-these programs were designed to work with Bochs or QEMU.
+these programs were designed to work with Bochs or QEMU. I prefer QEMU.
 
 `qemu-system-x86_64 <BIOS_NAME>.bin`
 
