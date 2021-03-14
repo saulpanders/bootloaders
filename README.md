@@ -18,6 +18,8 @@ these programs were designed to work with Bochs or QEMU. I prefer QEMU.
 
 `qemu-system-x86_64 <BIOS_NAME>.bin`
 
-
+### Source(s):
+heavily inspired by Nick Blundell's "Writing an Operating System from Scratch"
+https://www.cs.bham.ac.uk/~exr/lectures/opsys/10_11/lectures/os-dev.pdf
 
 
